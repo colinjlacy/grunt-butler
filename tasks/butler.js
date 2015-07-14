@@ -13,7 +13,7 @@ module.exports = function(grunt) {
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
 
-  grunt.registerMultiTask('butler', 'A Grunt plugin meant to auto-generate page objects for Protractor tests, cutting down on the amount of time it takes to write end-to-end tests (utlimately encouraging more testing!)', function() {
+  grunt.registerMultiTask('butler', 'A Grunt plugin meant to auto-generate page objects for Protractor tests, cutting down on the amount of time it takes to write end-to-end tests (ultimately encouraging more testing!)', function() {
     /**
      * Created by colinlacy on 4/10/15.
      */
