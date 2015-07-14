@@ -1,0 +1,45 @@
+{
+  "name": "grunt-butler",
+  "description": "A Grunt plugin meant to auto-generate page objects for Protractor tests, cutting down on the amount of time it takes to write end-to-end tests (utlimately encouraging more testing!)",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Colin Lacy",
+    "email": "colin.lacy@ge.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5",
+    "fs": "0.0.2",
+    "mkdirp": "0.5.0",
+    "jquery": "2.1",
+    "glob": "5.0.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
